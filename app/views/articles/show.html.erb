@@ -7,6 +7,7 @@
 </p>
 
 <p>
+  <%= link_to "一覧", articles_path %>
   <%= link_to "編集", edit_article_path(@article) %>
   <%= link_to "削除", article_path(@article), method: :delete, data: {confirm: '削除してよろしいですか？'} %> 
 </p>
